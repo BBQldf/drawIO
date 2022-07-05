@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T12:04:43.036Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="NhTYOYu_02quunJte89-" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-05T13:34:06.248Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="0xRPqokP9lnnyKBtkHtt" version="20.0.4" type="github">
   <diagram id="SV0dx7TeNnwzuteji7VQ" name="Page-1">
-    <mxGraphModel dx="2222" dy="1599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2998" dy="2035" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-63" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-536" y="131" width="1459" height="1255" as="geometry" />
+        </mxCell>
         <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-37" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="-656" width="473" height="725" as="geometry" />
         </mxCell>
@@ -117,11 +120,95 @@
         <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-47" value="LoginRecord login" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="24" y="-563" width="222" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-52" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-502" y="146" width="1131" height="635" as="geometry" />
-        </mxCell>
         <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-54" value="MultiPushMsg::doServiceLogic()" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-148" y="106" width="337" height="40" as="geometry" />
+          <mxGeometry x="13" y="95" width="337" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;fontColor=#99004D;" edge="1" parent="1" source="zQ2Y9jjjKYXvb-ktNzpl-55" target="zQ2Y9jjjKYXvb-ktNzpl-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=19;fontColor=#99004D;" edge="1" parent="1" source="zQ2Y9jjjKYXvb-ktNzpl-55" target="zQ2Y9jjjKYXvb-ktNzpl-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;fontColor=#99004D;" edge="1" parent="1" source="zQ2Y9jjjKYXvb-ktNzpl-55" target="zQ2Y9jjjKYXvb-ktNzpl-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-55" value="getAddrRes = CONF::Instance()-&amp;gt;getOidbAddr(&amp;amp;oidbAddr);&lt;br&gt;//通过conf里面的getOidbAddr,返回CMLB_V2_GetOneIntf对应的OIDB服务实例" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-241" y="215" width="672" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;fontColor=#000000;" edge="1" parent="1" source="zQ2Y9jjjKYXvb-ktNzpl-56" target="zQ2Y9jjjKYXvb-ktNzpl-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-56" value="PackageBuilder::getInstance()-&amp;gt;encodeReqOIDB0x860(sendBuf, sizeof(sendBuf), sendPkgLen, pushUin)&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;//0x860(通过OIDB拉取加入的讨论组列表)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;fillColor=#D9D9D9;" vertex="1" parent="1">
+          <mxGeometry x="-487" y="352" width="361" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;fontColor=#000000;" edge="1" parent="1" source="zQ2Y9jjjKYXvb-ktNzpl-58" target="zQ2Y9jjjKYXvb-ktNzpl-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-58" value="PackageBuilder::getInstance()-&amp;gt;encodeReqOIDB0x5d5(sendBuf, sizeof(sendBuf), sendPkgLen, pushUin)&lt;br&gt;//0x5d5(通过OIDB拉取加入的群列表)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;fillColor=#D9D9D9;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="352" width="379" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;fontColor=#000000;" edge="1" parent="1" source="zQ2Y9jjjKYXvb-ktNzpl-59" target="zQ2Y9jjjKYXvb-ktNzpl-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-59" value="&lt;div&gt;// 0x724(通过OIDB拉取加入的多人会话列表)&lt;/div&gt;&lt;div&gt;// 0xa97(通过OIDB拉取加入的组织列表)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;align=left;fillColor=#FFDCB5;" vertex="1" parent="1">
+          <mxGeometry x="306" y="352" width="202" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;fontColor=#000000;" edge="1" parent="1" source="zQ2Y9jjjKYXvb-ktNzpl-60" target="zQ2Y9jjjKYXvb-ktNzpl-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-60" value="&lt;div style=&quot;text-align: center;&quot;&gt;// 0x911(通过QCallOIDB拉取讨论组列表)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;align=left;fillColor=#EB8DE1;" vertex="1" parent="1">
+          <mxGeometry x="580.25" y="352" width="212.5" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="1" source="zQ2Y9jjjKYXvb-ktNzpl-62" target="zQ2Y9jjjKYXvb-ktNzpl-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-62" value="&lt;div style=&quot;text-align: center;&quot;&gt;getAddrRes = CONF::Instance()-&amp;gt;getQCallOidbAddr(&amp;amp;oidbAddr);&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="528" y="190" width="317" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-64" value="&lt;div style=&quot;font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 27px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#99004d&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;================ &lt;/span&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;①&lt;/font&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;通过oidb获取群或讨论组列表 ================&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-137" y="154" width="703" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-68" value="&lt;font color=&quot;#000000&quot;&gt;手Q||PCQQ&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#99004D;" vertex="1" parent="1">
+          <mxGeometry x="-298" y="288" width="172" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-69" value="&lt;font color=&quot;#000000&quot;&gt;手Q||PCQQ&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#99004D;" vertex="1" parent="1">
+          <mxGeometry x="27" y="313" width="172" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-70" value="&lt;font color=&quot;#000000&quot;&gt;企业QQ(EIM)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#99004D;" vertex="1" parent="1">
+          <mxGeometry x="306" y="283" width="172" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-72" value="&lt;font color=&quot;#000000&quot;&gt;QCall&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#99004D;" vertex="1" parent="1">
+          <mxGeometry x="668" y="313" width="172" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-75" value="&lt;div style=&quot;orphans: 2; text-align: center; text-indent: 0px; widows: 2; text-decoration-style: initial; text-decoration-color: initial; line-height: 27px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#99004d&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-size: 20px;&quot;&gt;================ &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-size: 30px;&quot;&gt;②&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(153, 0, 77); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; background-color: initial;&quot;&gt;通过roomInfoVec在redis中&lt;/span&gt;&lt;span style=&quot;font-size: 20px; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(153, 0, 77); background-color: initial;&quot;&gt;查询群或讨论组是否有视频&lt;/span&gt;&lt;span style=&quot;font-size: 20px; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(153, 0, 77); background-color: initial;&quot;&gt;&amp;nbsp;================&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-289" y="543" width="934" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;fontColor=#000000;" edge="1" parent="1" source="zQ2Y9jjjKYXvb-ktNzpl-76" target="zQ2Y9jjjKYXvb-ktNzpl-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-76" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;for (vector&amp;lt;roomInfo&amp;gt;::iterator it = roomInfoVec.begin(); it != roomInfoVec.end();)&lt;br&gt;//遍历roomInfoVec检查是否有视频//&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-436.5" y="585" width="1207" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;fontColor=#000000;" edge="1" parent="1" source="zQ2Y9jjjKYXvb-ktNzpl-77" target="zQ2Y9jjjKYXvb-ktNzpl-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-77" value="&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;PackageBuilder::getInstance()-&amp;gt;encodeReq0x90(&lt;/b&gt;sendBuf,&lt;/span&gt;&lt;span style=&quot;font-size: 22px; background-color: initial;&quot;&gt;sizeof(sendBuf),&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;sendPkgLen,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;pushUin,&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;rand(),&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;0x90,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;dispatchInfo.room_info().room_id(),&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;redisKey.relation_id,&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;0,&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;dispatchInfo.room_info().last_update_time().sec(),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;redisKey.relation_id,&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;redisKey.relation_type,&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;redisKey.business_type,&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;2,&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;2, logstr)&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;//先访问流控服务&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;fillColor=none;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-377.5" y="725" width="1089" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-83" value="&lt;div style=&quot;orphans: 2; text-align: center; text-indent: 0px; widows: 2; text-decoration-style: initial; text-decoration-color: initial; line-height: 27px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#99004d&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-size: 20px;&quot;&gt;================ &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-size: 30px;&quot;&gt;③&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(153, 0, 77); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; background-color: initial;&quot;&gt;通过对有视频的rediskey查询流控信息&lt;/span&gt;&lt;span style=&quot;font-size: 20px; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(153, 0, 77); background-color: initial;&quot;&gt;================&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-241" y="675" width="934" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-84" value="&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;sendRecvRes = mt_udpsendrcv(&lt;/span&gt;&lt;span style=&quot;font-size: 22px; background-color: initial;&quot;&gt;&amp;amp;centAddr, (void *)sendBuf, sendPkgLen, recvBuf, recvPkgLen,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;CONF::Instance()-&amp;gt;centTimeOut);&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;//根据流控ip（redis中包含流控ip，接口机实例，还有建房信息等）找到对应的数据信息&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;fillColor=none;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-423.5" y="893" width="1181" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-87" value="&lt;div style=&quot;orphans: 2; text-align: center; text-indent: 0px; widows: 2; text-decoration-style: initial; text-decoration-color: initial; line-height: 27px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#99004d&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-size: 20px;&quot;&gt;================ &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-size: 30px;&quot;&gt;④&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(153, 0, 77); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; background-color: initial;&quot;&gt;把查询到的房间信息下发用户(下发S2C消息)&lt;/span&gt;&lt;span style=&quot;font-size: 20px; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(153, 0, 77); background-color: initial;&quot;&gt;================&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-257" y="1037" width="934" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-88" value="&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;PackageBuilder::getInstance()-&amp;gt;encode0x95Req(&lt;/span&gt;&lt;span style=&quot;font-size: 22px; background-color: initial;&quot;&gt;sendBuf, sizeof(sendBuf), sendPkgLen, pushUin, roomInfoVec, isPc, msgSeq)PackageBuilder::getInstance()-&amp;gt;encode0x95Req(&lt;/span&gt;&lt;span style=&quot;font-size: 22px; background-color: initial;&quot;&gt;sendBuf, sizeof(sendBuf), sendPkgLen, pushUin, roomInfoVec, isPc, msgSeq)&lt;/span&gt;&lt;span style=&quot;font-size: 22px; background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;font-size: 22px; background-color: initial;&quot;&gt;//组包&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;//后续会检查组包长度，超长也是组包失败，不做别的处理&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;fillColor=none;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1081" width="943" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ2Y9jjjKYXvb-ktNzpl-89" value="&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;sendRecvRes = mt_udpsendrcv(&lt;/span&gt;&lt;span style=&quot;font-size: 22px; background-color: initial;&quot;&gt;&amp;amp;msgAgentAddr, (void *)sendBuf, sendPkgLen, recvBuf, recvPkgLen, CONF::Instance()-&amp;gt;msgAgentTimeOut);&lt;/span&gt;&lt;span style=&quot;font-size: 22px; background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;font-size: 22px; background-color: initial;&quot;&gt;//组包发送给msgAgent&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=19;fontColor=#000000;strokeColor=default;fillColor=none;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-289" y="1234" width="943" height="108" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
