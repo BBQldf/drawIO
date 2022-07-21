@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T02:41:20.298Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" version="20.0.4" etag="xHi_ADUTjAmEMKaf8Wpp" type="github"><diagram id="cP0rQfL6RXHf_kGVY2SV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-21T04:08:09.353Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="U-K-lx9hogySXV2HOzMI" version="20.0.4" type="github">
+  <diagram id="cP0rQfL6RXHf_kGVY2SV" name="Page-1">
+    <mxGraphModel dx="2224" dy="965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-1" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;STX&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-117" y="184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-4" value="&lt;span style=&quot;text-align: start; color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; orphans: 4;&quot;&gt;RelayPkgHead&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-5" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: left;&quot;&gt;RelayPackageHeadEx2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="184" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;len=9&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="473" y="184" width="104" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;type = 9&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="184" width="104" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;fromAppID=0&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="577" y="184" width="134" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;fromInstanceId&lt;br&gt;=0&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="711" y="184" width="134" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-12" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;count=1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="184" width="134" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;toAppID=1(PC) or 1001(手Q)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="979" y="184" width="134" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;toInstanceId&lt;br&gt;=1(PC) or 0(手Q)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1113" y="184" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-117" y="155" as="sourcePoint" />
+            <mxPoint x="1469" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-17" value="从左至右" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="_FS9Z-u7S_txMD6Rpw7N-15">
+          <mxGeometry x="-0.016" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-19" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: left;&quot;&gt;systemmessageCmd&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="184" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-21" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: left;&quot;&gt;subcmd &lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-117" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-22" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Uin&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-24" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;TLV1(//tag1 discuss number)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-25" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;TLV2(//tag2 total users)&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-30" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;TLV3(//tag3 roomstatus)&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-31" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt; TLV4(//tag4 uinlist)&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="571" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-32" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;TLV5(//tag5 roomid)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="713" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-33" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;TLV6(//tag6 createtime)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-34" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;TLV7(//tag7 doctype)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="997" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-35" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;TLV8(//tag8 uinType list)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1139" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-36" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; orphans: 4; text-align: left;&quot;&gt;TLV9(//tag9 pstnStatus list)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1287" y="264" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-37" value="&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;tlvcount(TLV数目)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-117" y="351" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-38" value="&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: left;&quot;&gt;count（room.size()，群/讨论组列表的大小&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="25" y="351" width="203" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;//扩展字段 16字节(全0填充)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="351" width="203" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FS9Z-u7S_txMD6Rpw7N-41" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;ETX&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="351" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
