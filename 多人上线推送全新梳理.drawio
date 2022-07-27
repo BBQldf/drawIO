@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T08:24:27.891Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="6Pzo9gz8sFj5XBhExGUc" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T09:21:45.470Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="A8NwK_09Tc2ITrCS5uBz" version="20.2.0" type="github">
   <diagram id="5r71udcWuMFelqzh1lrb" name="第 1 页">
     <mxGraphModel dx="3475" dy="2128" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -548,7 +548,7 @@
         <mxCell id="zO9z0KWeAWTrWtClQLV5-14" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;Redis1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;strokeWidth=4;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="2697" y="6661" width="275.57" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="zO9z0KWeAWTrWtClQLV5-15" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 38px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;3.2. 查房间状态信息&lt;/span&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=38;strokeWidth=7;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zO9z0KWeAWTrWtClQLV5-4" target="zO9z0KWeAWTrWtClQLV5-13">
+        <mxCell id="zO9z0KWeAWTrWtClQLV5-15" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 38px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;4. 查房间状态信息&lt;/span&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=38;strokeWidth=7;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zO9z0KWeAWTrWtClQLV5-4" target="zO9z0KWeAWTrWtClQLV5-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1973.28" y="6872" as="sourcePoint" />
             <mxPoint x="1967" y="7156" as="targetPoint" />
@@ -568,7 +568,7 @@
         <mxCell id="zO9z0KWeAWTrWtClQLV5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=38;strokeWidth=7;" edge="1" parent="1" source="zO9z0KWeAWTrWtClQLV5-21" target="zO9z0KWeAWTrWtClQLV5-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zO9z0KWeAWTrWtClQLV5-21" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;调度服务&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;strokeWidth=4;" vertex="1" parent="1">
+        <mxCell id="zO9z0KWeAWTrWtClQLV5-21" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;调度服务&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;strokeWidth=4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="3409.53" y="6666.5" width="275" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zO9z0KWeAWTrWtClQLV5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=38;strokeWidth=7;" edge="1" parent="1" source="zO9z0KWeAWTrWtClQLV5-23" target="zO9z0KWeAWTrWtClQLV5-35">
@@ -579,7 +579,7 @@
             <mxPoint x="33" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zO9z0KWeAWTrWtClQLV5-23" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;跑马灯&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;strokeWidth=4;" vertex="1" parent="1">
+        <mxCell id="zO9z0KWeAWTrWtClQLV5-23" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;跑马灯&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;strokeWidth=4;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1111.4999999999998" y="7404" width="278" height="95" as="geometry" />
         </mxCell>
         <mxCell id="zO9z0KWeAWTrWtClQLV5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=38;strokeWidth=7;" edge="1" parent="1" source="zO9z0KWeAWTrWtClQLV5-26" target="zO9z0KWeAWTrWtClQLV5-50">
@@ -594,7 +594,7 @@
             <mxPoint x="1984.28" y="7109" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zO9z0KWeAWTrWtClQLV5-28" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;span style=&quot;&quot;&gt;4.&lt;/span&gt;组包、下发S2C消息&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=38;" vertex="1" parent="1">
+        <mxCell id="zO9z0KWeAWTrWtClQLV5-28" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;span style=&quot;&quot;&gt;5.&lt;/span&gt;组包、下发S2C消息&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=38;" vertex="1" parent="1">
           <mxGeometry x="1263" y="6600" width="414" height="130" as="geometry" />
         </mxCell>
         <mxCell id="zO9z0KWeAWTrWtClQLV5-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=38;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=7;" edge="1" parent="1" source="zO9z0KWeAWTrWtClQLV5-4" target="zO9z0KWeAWTrWtClQLV5-1">
@@ -639,7 +639,7 @@
             <mxPoint x="2197.0100000000007" y="7256" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zO9z0KWeAWTrWtClQLV5-49" value="3.1. 查有音视频的群/讨论组列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=38;" vertex="1" connectable="0" parent="zO9z0KWeAWTrWtClQLV5-40">
+        <mxCell id="zO9z0KWeAWTrWtClQLV5-49" value="3. 查有音视频的群/讨论组列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=38;" vertex="1" connectable="0" parent="zO9z0KWeAWTrWtClQLV5-40">
           <mxGeometry x="-0.125" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -703,7 +703,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zO9z0KWeAWTrWtClQLV5-77" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;跑马灯&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;strokeWidth=4;" vertex="1" parent="1">
+        <mxCell id="zO9z0KWeAWTrWtClQLV5-77" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;跑马灯&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;strokeWidth=4;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1514.65" y="9230" width="278" height="95" as="geometry" />
         </mxCell>
         <mxCell id="zO9z0KWeAWTrWtClQLV5-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=38;strokeWidth=7;" edge="1" parent="1" source="zO9z0KWeAWTrWtClQLV5-79" target="zO9z0KWeAWTrWtClQLV5-94">
@@ -749,7 +749,7 @@
         <mxCell id="zO9z0KWeAWTrWtClQLV5-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=38;strokeWidth=7;" edge="1" parent="1" source="zO9z0KWeAWTrWtClQLV5-90" target="zO9z0KWeAWTrWtClQLV5-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zO9z0KWeAWTrWtClQLV5-89" value="查有音视频的群/讨论组房间ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=38;" vertex="1" connectable="0" parent="zO9z0KWeAWTrWtClQLV5-88">
+        <mxCell id="zO9z0KWeAWTrWtClQLV5-89" value="查有音视频的群/讨论组房间状态信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=38;" vertex="1" connectable="0" parent="zO9z0KWeAWTrWtClQLV5-88">
           <mxGeometry x="-0.3224" y="-3" relative="1" as="geometry">
             <mxPoint x="-1" y="3" as="offset" />
           </mxGeometry>
